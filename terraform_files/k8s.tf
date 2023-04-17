@@ -2,7 +2,7 @@ provider "aws" {
  region = "ap-south-1"
 }
 resource "aws_instance" "k8s_server" {
- ami = "ami-007855ac798b5175e"
+ ami = "ami-03a933af70fa97ad2"
  instance_type = "t2.medium"
 
 
